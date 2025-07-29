@@ -21,6 +21,11 @@ function AddTask({ onAddTaskClick }) {
       />
       <button
         onClick={() => {
+          // verificar se o título e a descrição foram preenchidos
+          if (!title.trim() || !description.trim()) {
+            alert("Preencha o título e a descrição da tarefa");
+            return;
+          }
           onAddTaskClick(title, description);
           setTitle("");
           setDescription("");
