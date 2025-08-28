@@ -16,7 +16,5 @@ Permite adicionar, editar, concluir e excluir tarefas, com uma interface amigáv
 ## 🛠️ Tecnologias
 - **Frontend:** React + TailwindCSS  
 - **Backend:** Node.js + Express  
-- **Banco de Dados:** MongoDB  
-- **Autenticação:** JWT  
 
 ---
